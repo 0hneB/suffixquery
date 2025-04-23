@@ -16,7 +16,7 @@ SuffixQuery is a Python-based GUI tool that allows users to extract place names 
 
 1. Make sure you have Python 3 installed.
 2. Clone this repo or download the source files.
-3. Create a .bat file and run it
+3. Create a .bat file and run it or just double click the .py file
 4. Select a country, enter a suffix (e.g. `ach`), choose place types, and click **Fetch Data**.
 5. The KML file will be saved in the same folder.
 ---
