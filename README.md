@@ -1,25 +1,50 @@
-# Suffix Query Tool
+# SuffixQuery - KML Place Name Extractor
 
-A simple Python script that allows users to fetch place names with specific suffixes from different countries using the Overpass API. The results are saved in a KML format, ready to be used in mapping applications like Google Earth.
+SuffixQuery is a Python-based GUI tool that allows users to extract place names from OpenStreetMap data using the Overpass API. Users can specify a country, place types (like town, city, village), and a suffix (e.g. "ach") to find all matching locations and export them to a `.kml` file for use in mapping applications.
 
-## Features
+---
 
-- Select a country from a dropdown list.
-- Specify a suffix (e.g., "ach", "ton").
-- Filter results by place types such as village, town, or city.
-- Fetch data from the Overpass API and save it as a KML file.
-- Automatically save the KML file with a filename formatted as `country--suffix.kml`.
-- Cross-platform support for both Windows and macOS.
+## 💡 Features
 
-## Installation
+- ✅ Allows filtering by place type (village, town, city, road)
+- ✅ Generates `.kml` files in the format `country--suffix.kml`
+- ✅ Automatically saves the KML file in the script's directory
 
-### Prerequisites
+---
 
-Before running the script, you need to install the required Python dependencies.
+## 🖥️ How to Use
 
-1. **Python 3.x**: Make sure you have Python 3 installed. You can download it from the official website: [https://www.python.org/](https://www.python.org/).
-   
-2. **Install required dependencies**:  
-   The script uses the `requests` library to fetch data from the Overpass API. If it's not already installed, you can install it using pip:
-   ```bash
-   pip install requests
+1. Make sure you have Python 3 installed.
+2. Clone this repo or download the source files.
+3. Create a .bat file and run it
+4. Select a country, enter a suffix (e.g. `ach`), choose place types, and click **Fetch Data**.
+5. The KML file will be saved in the same folder.
+---
+
+## 🗺️ Example Use Case
+
+Want to find all towns and villages in Germany ending in **"ach"**?  
+→ Just choose "Germany", enter `"ach"`, select "town" and "village", and hit **Fetch Data**.  
+You'll get `germany--ach.kml` with matching places.
+
+---
+
+## 📁 Output
+
+- Saved in the same folder as the script.
+- Filename format: `country--suffix.kml` (e.g., `austria--dorf.kml`)
+
+---
+
+## 🔒 License & Attribution
+ 
+ data is provided by **OpenStreetMap**, and usage must comply with the [ODbL license](https://opendatacommons.org/licenses/odbl/).
+ Data provided by the **Overpass API**, © OpenStreetMap contributors (ODbL).
+
+## 🧑‍💻 Credits
+
+Made by **BennoGHG**
+
+## 🌐 GitHub Repo
+
+https://github.com/0hneB/suffixquery
