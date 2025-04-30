@@ -26,6 +26,7 @@ Data is provided by the Overpass API, © OpenStreetMap contributors (ODbL).
 
 🧑‍💻 Credits
 Made by BennoGHG
+Testing & Ideas AtomoMC
 
 🌐 GitHub Repo
 https://github.com/0hneB/suffixquery
