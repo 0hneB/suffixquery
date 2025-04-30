@@ -25,7 +25,7 @@ The data is provided by OpenStreetMap and usage must comply with the ODbL licens
 Data is provided by the Overpass API, © OpenStreetMap contributors (ODbL).
 
 🧑‍💻 Credits
-Made by BennoGHG
+Made by BennoGHG |
 Testing & Ideas AtomoMC
 
 🌐 GitHub Repo
