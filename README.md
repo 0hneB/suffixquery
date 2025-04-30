@@ -44,8 +44,6 @@ Want to find all towns and villages in **Germany** ending in `ach`?
 
 - Made by **BennoGHG**  
   > Discord: `benno2503`  
-- Ideas & Testing: **AtomoMC**  
-  > Discord: `atomomc3904`  
 </details>
 
 ---
