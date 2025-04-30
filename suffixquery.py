@@ -408,7 +408,6 @@ def select_output_dir():
         kml_dir = directory
         update_status(f"Output directory set to: {directory}", "green")
 
-# UI
 root = tk.Tk()
 root.title("Overpass Tool by BennoGHG")
 root.geometry("1000x800")
@@ -419,7 +418,6 @@ style.theme_use("clam")
 style.configure("TButton", font=("Segoe UI", 12, "bold"), padding=8, background="#2a2a2a", foreground="white", borderwidth=0)
 style.map("TButton", background=[("active", "#3498db")])
 
-# Main container with padding
 main_frame = tk.Frame(root, bg="#1e1e1e", padx=20, pady=10)
 main_frame.pack(fill="both", expand=True)
 
@@ -437,7 +435,6 @@ country_combobox = ttk.Combobox(main_frame, values=sorted(country_qids.keys()), 
 country_combobox.pack(pady=(0, 10), fill="x")
 country_combobox.bind('<KeyRelease>', on_country_entry)
 
-# Terms input - CHANGED instruction text
 tk.Label(main_frame, text="Enter Terms (comma separated, e.g. 'ach,by,ville'):", font=("Segoe UI", 12), bg="#1e1e1e", fg="white").pack(anchor="w")
 suffix_entry = tk.Entry(main_frame, font=("Segoe UI", 12))
 suffix_entry.pack(pady=(0, 10), fill="x")
