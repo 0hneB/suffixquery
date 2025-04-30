@@ -1,4 +1,4 @@
-SuffixQuery - KML Place Name Extractor (Executable)
+SuffixQuery - KML Place Name Extractor
 SuffixQuery is a standalone GUI application that allows users to extract place names from OpenStreetMap data using the Overpass API. With this tool, you can specify a country, place types (like town, city, village), and a suffix (e.g. "ach") to find all matching locations and export them to a .kml file for use in mapping applications.
 
 💡 Features
